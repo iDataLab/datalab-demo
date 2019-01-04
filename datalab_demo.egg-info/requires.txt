@@ -1,0 +1,11 @@
+qt.py
+
+[:python_version <= "2.7" and platform_system != "Windows"]
+pyside2
+
+[:python_version <= "2.7" and platform_system == "Windows"]
+pyside
+
+[:python_version >= "3.6"]
+pyside2
+pyqt5
